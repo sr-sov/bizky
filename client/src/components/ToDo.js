@@ -8,7 +8,7 @@ export default function ToDo({todo, toggleTodo}) {
     return (
         <ul>
             <label>{todo.name}</label>
-            <input type="check" onChange={handleClickTodo} type="checkbox" checked={todo.complete} />
+            <input onChange={handleClickTodo} type="checkbox" checked={todo.complete} />
         </ul>
     )
 }
