@@ -1,11 +1,12 @@
 import React from "react";
+import ToDoForm from "./components/ToDoForm";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
-  );
+    <>
+    <ToDoForm />
+    </>
+  )
 }
 
 export default App;
